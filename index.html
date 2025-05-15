@@ -27,7 +27,6 @@ html, body {
   min-height: 100vh;
 }
 
-/* a blue color as a generic focus style */
 button:focus-visible {
   outline: 2px solid #4a90e2 !important;
   outline: -webkit-focus-ring-color auto 5px !important;
@@ -36,7 +35,6 @@ a {
   text-decoration: none;
 }
 
-/* Additional styles for improved accessibility */
 body {
   line-height: 1.5;
   color: #ffffff;
@@ -640,37 +638,33 @@ img {
   left: 488px;
 }
 
-/* Style for the navbar links */
 .navbar-2 li a {
   font-weight: bold;
   color: #ffffff;
   padding: 10px 20px;
 }
 
-/* Style for the dropdown */
 .div-3 {
-  position: relative; /* Required to position the dropdown */
+  position: relative;
 }
 
 .dropdown-menu {
-  display: none; /* Hidden by default */
+  display: none;
   position: absolute;
-  top: 100%; /* Position dropdown below the menu item */
+  top: 100%;
   left: 0;
   background-color: #010916;
   list-style-type: none;
   padding: 10px 0;
   border-radius: 5px;
-  width: 200px; /* Adjust the width */
-  z-index: 10; /* Ensure the dropdown is above other elements */
+  width: 200px;
+  z-index: 10; 
 }
 
-/* Show the dropdown when the parent is hovered */
 .div-3:hover .dropdown-menu {
   display: block;
 }
 
-/* Style the dropdown links */
 .dropdown-menu li {
   padding: 10px 20px;
   text-align: left;
@@ -682,47 +676,42 @@ img {
   display: block;
 }
 
-/* Style for hover effect on dropdown links */
 .dropdown-menu a:hover {
   background-color: #7c2cce;
   color: #e1bbfb;
 }
 
-/* FAQ Section at the bottom of the home page */
 .faq-section {
   background-color: #010916;
   padding: 40px;
   text-align: center;
-  margin-top: 20px; /* Reduced space before FAQ */
+  margin-top: 20px;
 }
 
-/* Container for FAQ items - 2x2 grid */
 .faq-container {
   display: grid;
-  grid-template-columns: repeat(2, 1fr); /* 2 columns */
-  gap: 30px; /* Reduced gap between the rectangles */
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
   justify-items: center;
-  margin-top: 30px; /* Reduced spacing */
+  margin-top: 30px; 
 }
 
-/* Each FAQ Item - Soft Rectangle Style */
 .faq-item {
-  width: 650px; /* Kept the same width for balance */
-  height: 160px; /* Increased height for more space */
+  width: 650px; 
+  height: 160px; 
   background-color: #1f1f2a;
-  border-radius: 100px; /* Softer, rounded corners */
+  border-radius: 100px; 
   overflow: hidden;
   position: relative;
-  padding: 20px; /* Reduced padding */
+  padding: 20px;
   box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
   transition: all 0.3s ease;
   border: 3px solid transparent;
-  background-image: linear-gradient(45deg, #e1bbfb, #7c2cce); /* Pink to Violet border effect */
+  background-image: linear-gradient(45deg, #e1bbfb, #7c2cce); 
   background-origin: border-box;
   background-clip: content-box;
 }
 
-/* FAQ Question Style */
 .faq-question {
   font-family: "Saira", Helvetica;
   font-weight: 600;
@@ -732,7 +721,6 @@ img {
   text-align: center;
 }
 
-/* FAQ Answer Style - Initially Hidden */
 .faq-answer {
   font-family: "Segoe UI", Helvetica;
   font-weight: 450;
@@ -748,7 +736,7 @@ img {
   text-align: center;
 }
 
-/* Show the answer when hovering over the FAQ item */
+
 .faq-item:hover .faq-answer {
   opacity: 1; /* Make the answer visible */
 }
