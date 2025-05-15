@@ -85,10 +85,4 @@ This project is licensed under the MIT License.
 
 ---
 
-## Contact
-
-For questions or support, contact: \[[email@example.com](mailto:email@example.com)]
-
----
-
 If you want, I can help customize it with your project name or more details. Just let me know!
