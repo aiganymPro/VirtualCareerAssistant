@@ -265,7 +265,6 @@
   </main>
 
   <script>
-    // Кнопка Find Your Type открывает новую вкладку с сайтом 16personalities
     document.getElementById('findYourTypeBtn').addEventListener('click', () => {
       window.open('https://www.16personalities.com/', '_blank');
     });
@@ -321,7 +320,6 @@
           type.classList.add('final-selected');
           if (btn) btn.style.display = 'none';
 
-          // Сохраняем выбранный MBTI в localStorage
           localStorage.setItem('mbtiType', type.dataset.name || '');
 
           window.open(type.dataset.link, '_blank'); // Открываем в новой вкладке
