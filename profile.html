@@ -5,10 +5,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <!-- Boxicons CSS -->
   <link href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css" rel="stylesheet" />
   <style>
-    /* Google Font Import - Poppins */
     @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
     * {
@@ -29,7 +27,7 @@
       --scrollbar-thumb: #695CFE;
       --link-hover-bg: #695CFE;
       --link-hover-text: #fff;
-      --active-bg: #574FBD; /* Slightly darker for active link */
+      --active-bg: #574FBD; 
     }
 
     body {
@@ -50,7 +48,6 @@
       background: var(--body-color);
     }
 
-    /* Sidebar styles */
     .sidebar {
       position: fixed;
       top: 0;
@@ -98,7 +95,6 @@
       color: #999;
     }
 
-    /* Sidebar menu links */
     .sidebar li {
       height: 50px;
       margin-top: 10px;
@@ -121,8 +117,7 @@
       color: var(--text-color);
       transition: color 0.3s ease;
     }
-
-    /* Use background highlight instead of vertical bar */
+    
     .sidebar li a {
       height: 100%;
       display: flex;
@@ -147,7 +142,6 @@
       color: var(--link-hover-text);
     }
 
-    /* Simulate active link styling */
     .sidebar li a.active {
       background: var(--active-bg);
       color: var(--link-hover-text);
@@ -179,7 +173,7 @@
       color: var(--text-color);
     }
 
-    /* Content area */
+
     #content-area {
       margin-left: 250px;
       padding: 30px;
@@ -196,7 +190,6 @@
       color: #ddd;
     }
 
-    /* Scrollbar styling for content-area */
     #content-area::-webkit-scrollbar {
       width: 8px;
     }
@@ -207,8 +200,7 @@
       background-color: var(--scrollbar-thumb);
       border-radius: 20px;
     }
-
-    /* Buttons inside content */
+    
     #content-area button {
       background: var(--primary-color);
       border: none;
