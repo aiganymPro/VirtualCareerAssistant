@@ -1,12 +1,6 @@
 # VirtualCareerAssistant
 Link for site: https://aiganympro.github.io/VirtualCareerAssistant/
-Sure! Here’s a clear and simple README template in English for your project using the ChatGPT API on GitHub:
 
----
-
-# Project Name
-
-**Description:**
 This project is an intelligent chatbot (or web application) powered by the ChatGPT API. It allows users to interact with the GPT-4 model by sending text queries and receiving smart, real-time responses.
 
 ---
